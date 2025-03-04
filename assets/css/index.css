@@ -1,0 +1,90 @@
+
+        *{
+            font-family: 'ubuntu';
+        }
+        .v-application{
+            background-color: rgb(156, 104, 104);
+            background-image: url(/assets/img/Background.png) ;
+            background-repeat: no-repeat;
+            background-size:cover;
+            margin: auto; 
+            padding: 0;
+            height:92.5vh;
+        }
+        .BoxHomeContent{
+            display: grid;
+            grid-template-columns: auto auto;
+            height: 100%;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-name: fadeInBottom        
+        }
+        @keyframes fadeInBottom {
+            from {
+                opacity: 0;
+                transform: translateY(100%);
+            }
+            to { opacity: 1 }
+        }        
+        .BoxHomeContent_Items_Inform{
+            position: absolute;
+            width: auto;
+            top: 15%;
+            left: 5%;
+        }
+        .SetNameColor{
+            font-size: 70px;
+            color: rgb(34, 108, 255);
+            text-shadow: 0 0 0 #ffffff, 0 0 5px #ffffff
+        
+        }
+        .BoxHomeContent_Items_Inform h2{
+            color: rgb(255, 255, 255);
+            text-shadow: 0 0 0px #fff, 0 0 5px #ffffff;
+            font-size: 70px;
+        }
+        .BoxHomeContent_Items_Inform h4{
+            color: rgb(255, 255, 255);
+            text-shadow: 0 0 0 #ffffff, 0 0 5px #ffffff;
+            font-size: 30px;
+        }
+        .AboutMeBtn{
+            width: 150px;
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+            background-color: hsl(220, 84%, 34%);
+            box-shadow: 0 0 0px #fff, 0 0 0px #e5e5e5, 0 0 5px #e5e5e5;
+        }
+        .AboutMeBtn :hover{
+            color: #7e7e7e;
+            background-color: hsla(220, 84%, 34%, 0.07);
+        }
+        .SosmedBtn{
+            background-color: rgb(73, 3, 39);
+            text-shadow: 0 0 0px #490327, 0 0 5px #bfbdbd, 0 0 10px #490327, 0 0 15px #bfbdbd, 0 0 20px #490327;
+            color: rgb(255, 255, 255);
+            box-shadow: 0 0 0px #fff, 0 0 0px #e5e5e5, 0 0 5px #e5e5e5;
+            margin-right: 5px;
+        }
+        .SosmedBtn :hover{
+            color: #bdbdbd;
+            background-color: hsla(220, 84%, 34%, 0.07);
+        }
+        .BoxImgAvatar{
+            position: absolute;
+            background-color: rgba(253, 253, 253, 0.833);
+            border: solid 2px #e2e2e2;
+            box-shadow: 0 0 0px #c7c7c7, 0 0 20px #c7c7c7;
+            border-radius: 50%;
+            height: 90%;
+            width: 520px;
+            top: 30px;
+            right: 200px;
+        }
+        .BoxHomeContent_Items :hover{
+            transform: translate(20px);
+        }
+        
+
+
+

@@ -1,0 +1,36 @@
+.v-application{
+    background-color: #ffffff;
+    height: 92.4vh;
+}
+.SkillsContent{
+    background-color: #b0b0b0;
+    margin: 10px;
+    box-shadow: 0 0 10px #b0b0b0;
+    border-radius: 10px;
+    height: 92.4vh;
+}
+.Showtherecontent{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.SkillShowing{
+    margin: 5px;
+}
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+.IconBtn{
+    width: 100%;
+    height: 100%;
+}
+#btn {
+    position: absolute;
+  }

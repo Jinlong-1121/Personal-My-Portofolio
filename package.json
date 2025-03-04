@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "naive-ui": "^2.35.0",
+    "nuxt": "^3.7.4",
+    "nuxt-primevue": "^0.0.3",
+    "sass": "^1.69.4",
+    "unplugin-auto-import": "^0.16.6",
+    "vfonts": "^0.0.3",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.3.23"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@mdi/font": "^7.3.67",
+    "@syncfusion/ej2": "^23.1.42",
+    "@syncfusion/ej2-base": "^23.1.42",
+    "@syncfusion/ej2-vue-charts": "^23.1.42",
+    "@syncfusion/ej2-vue-circulargauge": "^23.1.38",
+    "@syncfusion/ej2-vue-grids": "^23.1.44",
+    "@syncfusion/ej2-vue-layouts": "^23.1.38",
+    "axios": "^1.5.1",
+    "font-awesome": "^4.7.0",
+    "git": "^0.1.5",
+    "syncfusion-ej-global": "^20.4.38",
+    "syncfusion-javascript": "^20.4.38",
+    "vite": "^4.4.11",
+    "vue-select-3": "^1.0.1"
+  }
+}

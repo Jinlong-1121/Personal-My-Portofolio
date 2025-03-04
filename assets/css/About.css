@@ -1,0 +1,45 @@
+.v-application{
+    background-color: #c7c9ca;
+    height: 92.4vh;
+}
+
+.BoxAboutContent{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+    height: 100%;
+}
+.BoxAboutContent_Items{
+    margin: auto;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInBottom
+}
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+.ImageProfil{
+    border-radius: 18px;
+    filter: grayscale(0.8);
+    width: 300px;
+    height: 390px;
+    box-shadow: 0 0 5px #ffffff, 0 0 20px #c7c7c7;
+}
+.SpanProfilImg :hover{
+    filter: none;
+}
+.TextingContent{
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 5px #ffffff, 0 0 20px #c7c7c7;
+}
+.TextingContent :hover{
+    background-color: #c7c9ca;
+    color: #ffffff;
+}
