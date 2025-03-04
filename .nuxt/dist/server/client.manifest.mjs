@@ -7,12 +7,12 @@ export default {
     "module": true,
     "resourceType": "script"
   },
-  "/mnt/hgfs/D/Bima/01. FILE DEV/01. FrontEnd/02. Old/SansTech/VueJs/node_modules/nuxt/dist/app/entry.js": {
+  "/home/jinlong/Documents/GitHub/Personal-My-Portofolio/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/mnt/hgfs/D/Bima/01. FILE DEV/01. FrontEnd/02. Old/SansTech/VueJs/node_modules/nuxt/dist/app/entry.js"
+    "file": "/home/jinlong/Documents/GitHub/Personal-My-Portofolio/node_modules/nuxt/dist/app/entry.js"
   }
 }

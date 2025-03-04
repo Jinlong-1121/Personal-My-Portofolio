@@ -1,9 +1,9 @@
 {
-  "_hash": "hrIafYVO57",
+  "_hash": "G9xZaUb1dO_ElnX8ZzhfODZUu-zku6EWhhgStVR1yis",
   "project": {
-    "rootDir": "/mnt/hgfs/D/Bima/01. FILE DEV/01. FrontEnd/02. Old/SansTech/VueJs"
+    "rootDir": "/home/jinlong/Documents/GitHub/Personal-My-Portofolio"
   },
   "versions": {
-    "nuxt": "3.8.0"
+    "nuxt": "3.15.4"
   }
 }

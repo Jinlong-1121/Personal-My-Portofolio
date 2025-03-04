@@ -1,11 +1,9 @@
 
-import { updateAppConfig } from '#app'
-import { defuFn } from '/mnt/hgfs/D/Bima/01. FILE DEV/01. FrontEnd/02. Old/SansTech/VueJs/node_modules/defu/dist/defu.mjs'
+import { updateAppConfig } from '#app/config'
+import { defuFn } from 'defu'
 
 const inlineConfig = {
-  "nuxt": {
-    "buildId": "test"
-  }
+  "nuxt": {}
 }
 
 // Vite - webpack is handled directly in #app/config
@@ -17,4 +15,4 @@ if (import.meta.hot) {
 
 
 
-export default /* #__PURE__ */ defuFn(inlineConfig)
+export default /*@__PURE__*/ defuFn(inlineConfig)
