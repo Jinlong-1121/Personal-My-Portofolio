@@ -20,7 +20,7 @@
     "vite-plugin-vuetify": "^1.0.2",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5",
-    "vuetify": "^3.7.14"
+    "vuetify": "^3.3.23"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
